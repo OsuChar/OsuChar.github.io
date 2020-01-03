@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+2@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 html, body{
     height: 100%;
@@ -19,7 +19,7 @@ html, body{
 }
 .carousel-caption{
     position: absolute;
-    top: 0%;
+    top: 20%;
 }
 .carousel-caption h1{
     font-size: 500%;
@@ -54,8 +54,8 @@ html, body{
 .intro hr{
     border-top: 2px solid #b4b4b4;
     width: 100%;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    margin-top: 12px;
+    margin-bottom: 0px;
 }
 .fa-dice-d20, .fa-bitcoin, .fa-ethereum{
     font-size: 500%;
@@ -144,7 +144,7 @@ hr.light-100{
         padding: 8px;
     }
 }
-@media(max-width: 576px){
+@media(max-width: 400px){
     .carousel-caption{
         top: 10%;
     }
