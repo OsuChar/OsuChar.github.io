@@ -127,7 +127,7 @@ hr.light-100{
         padding-bottom: 1rem;
     }
 }
-@media(max-width: 768px){
+@media(max-width: 400px){
     .carousel-caption{
         top: 20%;
     }
